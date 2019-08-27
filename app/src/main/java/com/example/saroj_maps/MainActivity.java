@@ -64,7 +64,7 @@ public class MainActivity extends AppCompatActivity implements LocationListener 
         }
         adapter=new List_adapter(this,location_strs);
         listView.setAdapter(adapter);
-
+//
     }
 
     @Override
